@@ -1,0 +1,69 @@
+body{
+	background-image: url("https://images.unsplash.com/photo-1457877916676-133b53113613?dpr=1&auto=format&fit=crop&w=991&h=793&q=80&cs=tinysrgb&crop=&bg=");
+  font-family: 'Roboto', sans-serif;
+  background-repeat:no-repeat;
+  background-color: #e6e6e6;
+  background-position: center;
+}
+
+#container{
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	width: 50%;
+}
+#container h2{
+	text-align: center;
+	color: #C92228;
+  font-family: 'Lobster';
+  font-size: 38px;
+}
+
+#quoteContainer{
+	width: 75%;
+	padding: 10px;
+	margin: 30px auto;
+	text-align: center;
+  height: 70px;
+  font-weight: bold;
+  
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:150px;
+	margin-top: 10px;
+	border:2px solid #303f9f;
+  border-radius: 24px;
+	color:#303f9f;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	padding:10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#303f9f;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
